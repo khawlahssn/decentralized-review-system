@@ -1,52 +1,41 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-
-/coverage
-
-# vite
-
-dist
-dist-ssr
-
-# production
-
-/build
-
-# misc
-
-.DS_Store
-\*.pem
-*.local
-
-# debug
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# local env files
-
-.env\*.local
+node_modules
 .env
+packages/*/.env
 
-# vercel
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea
 
-.vercel
+*.gitkeep
 
-# typescript
+# eclipse project file
+.settings/
+.classpath
+.project
 
-\*.tsbuildinfo
-next-env.d.ts
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-# forge
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-out
-cache
+# OS
+.DS_Store
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+
+PROPOSAL.md
